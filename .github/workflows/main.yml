@@ -1,0 +1,10 @@
+            - name: Helm Check Action
+  # You may pin to the exact commit or the version.
+  # uses: hopisaurus/helm-check-action@39b5b8e7282f547fa3d3cf502eae0766cdeba91a
+  uses: hopisaurus/helm-check-action@v0.1.1
+  with:
+    # Path to the values.yaml
+    chart-values: # optional, default is .
+    # Path to the Chart.yaml
+    chart-location: # default is .
+          
